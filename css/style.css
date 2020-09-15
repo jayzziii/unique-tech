@@ -734,6 +734,16 @@ footer .has-text-centered {
   color: #aab2bd;
 }
 
+footer .copyright-container a {
+  color: #aab2bd;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+footer .copyright-container a:hover {
+  color: #fff;
+}
+
 @media screen and (max-width: 640px) {
   footer .is-one-quarter {
     margin-right: 0;
