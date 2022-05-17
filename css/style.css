@@ -7,7 +7,7 @@ body {
 
 #section-header {
   margin: 0 auto;
-  box-shadow: 1px 2px 3px #696969;
+  box-shadow: 1px 2px 3px hsl(0, 0%, 41%);
 }
 
 @media only screen and (min-width: 1088px) {
@@ -20,7 +20,7 @@ body {
 
 header {
   padding: 145px 5%;
-  background-color: #ffc038;
+  background-color: hsl(41, 100%, 61%);
 }
 
 header nav.level {
@@ -54,7 +54,7 @@ header nav.level {
   padding-right: 15px;
   padding-bottom: 25px;
   padding-left: 25px;
-  box-shadow: 1px 2px 3px #696969;
+  box-shadow: 1px 2px 3px hsl(0, 0%, 41%);
 }
 
 .header-right-desktop {
@@ -69,15 +69,15 @@ header nav.level {
 
 .navbar {
   margin-bottom: 100px;
-  background-color: #ffc038;
+  background-color: hsl(41, 100%, 61%);
 }
 
 .navbar-menu.is-active {
-  background-color: #ffc038;
+  background-color: hsl(41, 100%, 61%);
 }
 
 a.navbar-item:hover {
-  color: #2f2f2f;
+  color: hsl(0, 0%, 18%);
 }
 
 @media screen and (max-width: 640px) {
@@ -120,7 +120,7 @@ a.navbar-item:hover {
 @media screen and (min-width: 769px) {
   header nav .level-right .level-item:not(:last-child) {
     margin-right: 1.3rem;
-    color: #464646;
+    color: hsl(0, 0%, 27%);
   }
 }
 
@@ -159,11 +159,11 @@ a.navbar-item:hover {
 
 #services .button {
   padding: 20px 40px;
-  box-shadow: 1px 2px 3px #696969;
+  box-shadow: 1px 2px 3px hsl(0, 0%, 41%);
 }
 
 @media screen and (max-width: 640px) {
-  .level-left + .level-right {
+  .level-left+.level-right {
     margin-top: 0;
   }
 
@@ -231,7 +231,7 @@ a.navbar-item:hover {
 
 #about-header {
   margin: 0 auto;
-  box-shadow: 1px 2px 3px #696969;
+  box-shadow: 1px 2px 3px hsl(0, 0%, 41%);
 }
 
 #about-process {
@@ -334,7 +334,7 @@ a.navbar-item:hover {
 
 #features-header {
   margin: 0 auto;
-  box-shadow: 1px 2px 3px #696969;
+  box-shadow: 1px 2px 3px hsl(0, 0%, 41%);
 }
 
 .featured-list {
@@ -357,7 +357,7 @@ a.navbar-item:hover {
 }
 
 #features .level:hover {
-  background-color: #fbc73a;
+  background-color: hsl(44, 96%, 61%);
 }
 
 @media screen and (max-width: 640px) {
@@ -414,7 +414,7 @@ a.navbar-item:hover {
 
 #packages table td {
   padding: 8px 50px;
-  color: #b3b3b3;
+  color: hsl(0, 0%, 70%);
   font-size: 133%;
 }
 
@@ -428,7 +428,7 @@ a.navbar-item:hover {
 }
 
 #packages a:hover .table.is-inline-block td {
-  color: #363636;
+  color: hsl(0, 0%, 21%);
 }
 
 #packages table tr:last-child td {
@@ -462,12 +462,12 @@ a.navbar-item:hover {
 
 #history {
   padding: 65px 5%;
-  background: #f9f8f8;
+  background: hsl(0, 8%, 97%);
 }
 
 .history-container {
   padding: 15px 25px;
-  background-color: #fefefe;
+  background-color: hsl(0, 0%, 100%);
 }
 
 #history .level-left,
@@ -506,6 +506,7 @@ a.navbar-item:hover {
 }
 
 @media screen and (min-width: 768px) {
+
   #history .level-left,
   #history .level-right {
     width: 45%;
@@ -529,7 +530,7 @@ a.navbar-item:hover {
 
 .business-container {
   padding: 90px 95px;
-  background-color: #f4f4f4;
+  background-color: hsl(0, 0%, 96%);
 }
 
 @media screen and (max-width: 768px) {
@@ -550,12 +551,12 @@ a.navbar-item:hover {
 
 .members-container {
   padding: 60px 0 25px;
-  background-color: #ffc038;
+  background-color: hsl(41, 100%, 61%);
 }
 
 .members-container p {
   margin-bottom: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .members-container p:nth-child(2) {
@@ -620,7 +621,7 @@ a.navbar-item:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 192, 56, 0.6);
+  background-color: hsla(41, 100%, 61%, 0.6);
 }
 
 .hiring-text {
@@ -628,11 +629,11 @@ a.navbar-item:hover {
   position: absolute;
   bottom: 0;
   padding: 20px 30px;
-  background: #ffc038;
+  background: hsl(41, 100%, 61%);
 }
 
 .hiring-text p {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-size: 158%;
   font-weight: bold;
   line-height: 2.1;
@@ -640,10 +641,10 @@ a.navbar-item:hover {
 
 .hiring-text a {
   padding: 15px 45px;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 23%);
   font-size: 141%;
   font-weight: bold;
-  box-shadow: 1px 2px 3px #333;
+  box-shadow: 1px 2px 3px hsl(0, 0%, 20%);
 }
 
 @media screen and (max-width: 640px) {
@@ -673,7 +674,7 @@ a.navbar-item:hover {
 
 footer {
   padding: 45px 5% 30px;
-  background: #363636;
+  background: hsl(0, 0%, 21%);
 }
 
 footer .is-one-quarter {
@@ -686,7 +687,7 @@ footer .is-one-quarter:last-child {
 
 footer .is-one-quarter h5 {
   margin-bottom: 30px;
-  color: #e6e9ed;
+  color: hsl(214, 16%, 92%);
   font-weight: bold;
 }
 
@@ -695,11 +696,11 @@ footer .is-one-quarter ul li {
 }
 
 footer .is-one-quarter ul li a {
-  color: #aab2bd;
+  color: hsl(215, 13%, 70%);
 }
 
 footer .is-one-quarter ul li a:hover {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 footer .level {
@@ -708,39 +709,39 @@ footer .level {
 }
 
 footer .level a {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-size: 200%;
 }
 
 .fa-facebook-square:hover {
-  color: #3b5999;
+  color: hsl(221, 44%, 42%);
 }
 
 .fa-twitter-square:hover {
-  color: #55acee;
+  color: hsl(206, 82%, 63%);
 }
 
 .fa-google-plus-square:hover {
-  color: #dd4b39;
+  color: hsl(7, 71%, 55%);
 }
 
 .fa-linkedin:hover {
-  color: #0077b5;
+  color: hsl(201, 100%, 35%);
 }
 
 footer .has-text-centered {
   margin-top: 50px;
-  color: #aab2bd;
+  color: hsl(215, 13%, 70%);
 }
 
 footer .copyright-container a {
-  color: #aab2bd;
+  color: hsl(215, 13%, 70%);
   text-decoration: none;
   word-break: break-all;
 }
 
 footer .copyright-container a:hover {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 @media screen and (max-width: 640px) {
